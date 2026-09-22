@@ -1,0 +1,14 @@
+{
+  "name": "websocket-do-zero",
+  "version": "1.0.0",
+  "description": "Um servidor WebSocket escrito do zero sobre node:net, seguindo a RFC 6455. Zero dependencias.",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "exemplo": "node exemplos/eco.js"
+  },
+  "keywords": ["websocket", "rfc6455", "quadros", "tempo-real"],
+  "license": "MIT"
+}
